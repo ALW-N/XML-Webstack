@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE products SYSTEM "validation.dtd">
-<products>
+<!-- <!DOCTYPE products SYSTEM "validation.dtd"> -->
+<products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validation.xsd">
   <product>
-    <id type="unique">P123</id>
+    <id>123</id>
     <name>Laptop</name>
-    <price>899.99</price>
-    <quantity>25</quantity>
+    <price>400</price>
+    <quantity>100</quantity>
     <category>Electronics</category>
   </product>
   <product>
-    <id type="unique">C456</id>
-    <name>T-Shirt</name>
-    <price>15.99</price>
-    <quantity>150</quantity>
+    <id>456</id>
+    <name>T-shirt</name>
+    <price>20</price>
+    <quantity>50</quantity>
     <category>Clothing</category>
   </product>
   <product>
-    <id type="unique">B789</id>
-    <name>XML</name>
-    <price>39.95</price>
-    <quantity>50</quantity>
+    <id>789</id>
+    <name>Silient Patient</name>
+    <price>100</price>
+    <quantity>100</quantity>
     <category>Books</category>
   </product>
 </products>
