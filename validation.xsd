@@ -16,7 +16,7 @@
           </xs:complexType>
         </xs:element>
       </xs:sequence>
-    </xs:complexType>
+    </xs:complexType> 
   </xs:element>
 
   <xs:simpleType name="priceType">
