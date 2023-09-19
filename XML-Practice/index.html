@@ -1,15 +1,36 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Random Jokes</title>
+    <title>Random Dog Images</title>
 </head>
 <body>
-    <h1>Random Jokes</h1>
+    <h1>Random Dog Images</h1>
+    <button onclick="fetchRandomDogImage()">Get Random Dog Image</button>
+    <br>
+    <img style="height: 500px; width: auto;" id="dogImage" src="" >
+
     <button onclick="fetchRandomJoke()">Get Random Joke</button>
     <br>
     <p id="jokeText"></p>
 
-    <script src="jokes.js"></script>
+
+
+    <!-- Books in A Container -->
+    <button id="books">Get Books</button>
+
+        <table  border="1">
+            <tr>
+                <th>Title</th>
+                <th>Author Name</th>
+                <th>Description</th>
+            </tr>
+            <tbody id="bookbody">
+            </tbody>
+
+        </table>
+
+
+    <script src="new.js"></script>
 </body>
 </html>
-
